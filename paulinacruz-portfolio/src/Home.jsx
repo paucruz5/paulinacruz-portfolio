@@ -1,8 +1,8 @@
 import "./Home.css";
 
-export default function About() {
+export default function Home() {
   return (
-    <div className="about-container">
+    <div className="app-container">
       <nav className="navbar navbar-expand-md navbar-green fixed-top">
         <div className="container">
           <a className="navbar-brand" href="about.html" title="About Paulina">
@@ -31,8 +31,9 @@ export default function About() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a
-                  className="nav-link px-5"
-                  href="/index.html"
+                  className="nav-link active px-5"
+                  aria-current="page"
+                  href="index.html"
                   title="Paulina’s Home page"
                 >
                   <strong>Home page</strong>
@@ -40,9 +41,8 @@ export default function About() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link active px-5"
-                  aria-current="page"
-                  href="about.html"
+                  className="nav-link px-5"
+                  href="/about.html"
                   title="About Paulina"
                 >
                   <strong>About me</strong>
@@ -81,17 +81,17 @@ export default function About() {
             </h2>
             <br />
             <p className="justified-text-left text-intro paragraph-description">
-              My curiosity and love for technology drives me to learn. I did a
-              front-end course and it changed my life. I fell in love with
-              coding and I will keep learning more.
+              I aim to create engaging digital experiences that delight users
+              and meet business goals. I thrive on turning complex ideas into
+              visually appealing and intuitive interfaces.
             </p>
           </div>
 
-          <div className="col-lg">
+          <div className="col-lg text-center">
             <img
-              className="img-fluid ms-2 dog-picture p-1 shadow rounded"
-              src="/images/pau&luca.JPEG"
-              alt="Paulina-with-dog-picture"
+              className="img-fluid ms-2 face-shot p-1 shadow rounded"
+              src="/images/Paulina.png"
+              alt="Paulina-faceshot"
               width="220"
             />
           </div>
@@ -99,116 +99,105 @@ export default function About() {
         </div>
       </div>
 
-      <div className="about-myself">
-        <div className="container about-lists">
-          <div className="row text-left">
-            <div className="col">
-              <h3>A little about my work</h3>
-            </div>
+      <div className="container work-examples">
+        <div className="row justify-content-center project-text">
+          <div className="col-lg text-center text-lg-end">
+            <a
+              href="https://women-poems-searcher.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="image-link"
+            >
+              <img
+                src="/images/women-poems.png"
+                alt="Paulina Cruz's website that finds poems written by women"
+                width="350"
+                className="project-image p-1 shadow rounded"
+              />
+              <span className="tap-text">Tap to open</span>
+            </a>
           </div>
-          <ul>
-            <li className="mb-1 list">
-              Provide the design of your web page and I will create it
-            </li>
-            <li className="mb-1 list">I use Visual Studio Code</li>
-            <li className="mb-1 list">I use JavaScript</li>
-          </ul>
+
+          <div className="col-lg text-start">
+            <div className="text-center text-lg-start">
+              <h3>POEM SEARCHER</h3>
+            </div>
+            <p className="justified-text-right paragraph-pages">
+              Choose the theme of the poem, in any language you'd like and the
+              searcher will show you a beautiful poem written by a woman from
+              anywhere in the world, using Artificial Intelligence.
+            </p>
+          </div>
         </div>
 
-        <div className="container about-lists">
-          <div className="row text-left">
-            <div className="col">
-              <h3>A little about me</h3>
+        <div className="row justify-content-center project-text">
+          <div className="col-lg text-end order-lg-0 order-1">
+            <div className="text-center text-lg-end">
+              <h3>POLYAMORY GUIDE</h3>
             </div>
+            <p className="justified-text-left paragraph-pages">
+              A gentle guide to polyamory, centered on love, communication,
+              consent, and autonomy. Resources, definitions, and insights that
+              expand relationships beyond the constraints of monogamy.
+            </p>
           </div>
-          <ul>
-            <li className="mb-1 list">
-              I'm 31 years old. Born in August, 1994. I'm a Leo♌
-            </li>
-            <li className="mb-1 list">I'm Mexican-Cuban</li>
-            <li className="mb-1 list">
-              I studied front-end developing in
-              <span className="shecodes">
-                <a
-                  href="https://www.shecodes.io/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  SheCodes
-                </a>
-              </span>
-            </li>
-            <li className="mb-1 list">I also studied cinematography</li>
-            <li className="mb-1 list">
-              I have 8 years of customer service experience
-            </li>
-            <li className="mb-1 list">
-              My personality type is
-              <span className="personality">
-                <a
-                  href="https://www.16personalities.com/enfj-personality"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ENFJ-A (Protagonist)
-                </a>
-              </span>
-            </li>
-            <li className="mb-1 list">
-              I speak 3 languages:
-              <br />
-              <ul>
-                <li className="my-1">
-                  <small>Spanish (native)</small>
-                </li>
-                <li className="mb-1">
-                  <small>English (fluent C2)</small>
-                </li>
-                <li className="mb-1">
-                  <small>Portuguese (advance)</small>
-                </li>
-              </ul>
-            </li>
-          </ul>
+
+          <div className="col-lg order-lg-1 order-0 text-lg-start text-center">
+            <a
+              href="https://polyamory-guide-by-paulina.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="image-link"
+            >
+              <img
+                src="/images/polyamory-guide.png"
+                alt="Paulina Cruz's website that provides a guide on polyamory"
+                width="350"
+                className="project-image p-1 shadow rounded"
+              />
+              <span className="tap-text">Tap to open</span>
+            </a>
+          </div>
         </div>
 
-        <div className="container about-lists">
-          <div className="row text-left">
-            <div className="col">
-              <h3>A little about my soul</h3>
-            </div>
+        <div className="row justify-content-center project-text">
+          <div className="col-lg text-center text-lg-end">
+            <a
+              href="https://weather-pc.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="image-link"
+            >
+              <img
+                src="/images/weather-app.png"
+                alt="Paulina Cruz's website that shows you the weather in any city"
+                width="350"
+                className="project-image p-1 shadow rounded"
+              />
+              <span className="tap-text">Tap to open</span>
+            </a>
           </div>
-          <ul>
-            <li className="mb-1 list">
-              I'm part of the{" "}
-              <a href="#" id="lgbtDef">
-                LGBTQIA+
-              </a>{" "}
-              &
-              <a href="#" id="polyDef">
-                polyamorous
-              </a>{" "}
-              community
-            </li>
-            <li className="mb-1 list">
-              I'm a{" "}
-              <a href="#" id="feministDef">
-                feminist
-              </a>
-              , anti-racist and activist
-            </li>
-            <li className="mb-1 list">I'm an ecologist and animalist</li>
-            <li className="mb-1 list">
-              I can't live without music, cinema, books and art
-            </li>
-            <li className="mb-1 list">Love gives me purpose</li>
-            <li className="mb-1 list">Strong family values</li>
-          </ul>
+
+          <div className="col-lg text-start">
+            <div className="text-center text-lg-start">
+              <h3>WEATHER APP</h3>
+            </div>
+            <p className="justified-text-right paragraph-pages">
+              Choose any city in the world and the searcher will show you this
+              week's weather prediction in that city. It also shows the weather
+              in ℃ and ℉, date and time of your current location.
+            </p>
+          </div>
         </div>
       </div>
 
       <div className="container text-center">
         <div className="bottom-buttons">
+          <a href="about.html" className="section-btn shadow rounded">
+            {" "}
+            About me{" "}
+          </a>
+
           <a href="work.html" className="section-btn shadow rounded">
             {" "}
             My projects{" "}

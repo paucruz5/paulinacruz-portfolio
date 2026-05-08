@@ -1,0 +1,16 @@
+:root {
+    --handwriting-font-family: "Playpen Sans",
+        cursive;
+    --main-font-family: "Playwrite DE Grund",
+        system-ui;
+    --green: rgb(71, 238, 76);
+    --purple: rgb(152, 38, 252);
+    --grey: rgb(87, 85, 85);
+}
+
+body {
+    background: linear-gradient(90deg,
+            rgb(179, 99, 249) 11.2%,
+            rgb(165, 69, 249) 47.7%,
+            rgb(152, 38, 252) 80.2%);
+}
