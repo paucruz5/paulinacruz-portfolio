@@ -93,22 +93,6 @@ export default function Contact() {
           >
             <i className="fa-brands fa-linkedin fa-fw"></i> paulinamarincruz
           </a>
-          <a
-            href="https://www.facebook.com/paucruz5"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-contact"
-          >
-            <i className="fa-brands fa-facebook fa-fw"></i> @paucruz5
-          </a>
-          <a
-            href="https://www.instagram.com/paucruz5/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-contact"
-          >
-            <i className="fa-brands fa-instagram fa-fw"></i> @paucruz5
-          </a>
         </div>
       </div>
 
@@ -128,16 +112,34 @@ export default function Contact() {
 
       <footer>
         <p className="text-center mb-5">
-          This project was coded by Paulina Cruz
+          This project was coded by
+          <a
+            href="https://paucruz-portfolio.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            {" "}
+            Paulina Cruz
+          </a>{" "}
           <br className="d-block d-md-none" />
-          and it is
+          and it's open-sourced on{" "}
           <a
             href="https://github.com/paucruz5/portfolio-webpage"
             target="_blank"
             rel="noopener noreferrer"
-            className="github-code"
+            className="footer-link"
           >
-            open-sourced
+            Github
+          </a>
+          and hosted on{" "}
+          <a
+            href="https://the-meaning-archive.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Netlify
           </a>
         </p>
       </footer>

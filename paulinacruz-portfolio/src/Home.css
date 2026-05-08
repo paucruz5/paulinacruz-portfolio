@@ -272,12 +272,12 @@ ul {
 }
 
 /* footer open sourced */
-.github-code {
+.footer-link {
     text-decoration: none;
     color: var(--green);
 }
 
-.github-code:hover {
+.footer-link:hover {
     color: var(--grey);
 }
 
