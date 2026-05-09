@@ -210,6 +210,7 @@ ul {
     justify-content: center;
     align-items: center;
     margin: 30px;
+    margin-bottom: 50px;
     /* same button size ALWAYS */
     width: auto;
     padding: 10px 15px;
@@ -227,30 +228,10 @@ ul {
     color: var(--purple);
 }
 
-/* footer email */
-.email-link {
-    margin: 50px 0;
-    text-align: center;
-}
-
-.email-link a {
-    text-decoration: none;
-    font-size: 25px;
-    color: var(--green);
-}
-
-.email-link a:hover {
-    color: var(--grey);
-}
-
-.email-link a {
-    font-size: clamp(0.8rem, 2.5vw, 1.5rem);
-}
-
 /* footer social buttons */
 .social-btn {
+    padding: 0px 80px;
     font-size: 40px;
-    margin-bottom: 20px;
     color: var(--green);
 }
 
@@ -272,12 +253,16 @@ ul {
 }
 
 /* footer open sourced */
-.footer-link {
+.made-by-text {
+    margin-top: 30px;
+}
+
+.made-by-text a {
     text-decoration: none;
     color: var(--green);
 }
 
-.footer-link:hover {
+.made-by-text a:hover {
     color: var(--grey);
 }
 

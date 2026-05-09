@@ -3,18 +3,18 @@ import "./Home.css";
 export default function Work() {
   return (
     <div className="work-container">
-      <nav class="navbar navbar-expand-md navbar-green fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="about.html" title="About Paulina">
+      <nav className="navbar navbar-expand-md navbar-green fixed-top">
+        <div className="container">
+          <a className="navbar-brand" href="about.html" title="About Paulina">
             <img
-              src="images/PMC.png"
+              src="/images/PMC.png"
               width="50"
               height="50"
               alt="Paulina Logo"
             />
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -22,34 +22,34 @@ export default function Work() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-center"
+            className="collapse navbar-collapse justify-content-center"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav">
-              <li class="nav-item">
+            <ul className="navbar-nav">
+              <li className="nav-item">
                 <a
-                  class="nav-link px-5"
+                  className="nav-link px-5"
                   href="/index.html"
                   title="Paulina’s Home page"
                 >
                   <strong>Home page</strong>
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link px-5"
+                  className="nav-link px-5"
                   href="/about.html"
                   title="About Paulina"
                 >
                   <strong>About me</strong>
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link active px-5"
+                  className="nav-link active px-5"
                   aria-current="page"
                   href="work.html"
                   title="Paulina’s Work"
@@ -57,9 +57,9 @@ export default function Work() {
                   <strong>My work</strong>
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
-                  class="nav-link px-5"
+                  className="nav-link px-5"
                   href="/contact.html"
                   title="Contact Paulina"
                 >
@@ -71,32 +71,32 @@ export default function Work() {
         </div>
       </nav>
 
-      <h1 class="hero-heading text-center">My projects</h1>
+      <h1 className="hero-heading text-center">My projects</h1>
 
-      <div class="container work-examples">
-        <div class="row justify-content-center project-text">
-          <div class="col-lg text-center text-lg-end">
+      <div className="container work-examples">
+        <div className="row justify-content-center project-text">
+          <div className="col-lg text-center text-lg-end">
             <a
               href="https://women-poems-searcher.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="image-link"
+              className="image-link"
             >
               <img
-                src="images/women-poems.png"
+                src="/images/women-poems.png"
                 alt="Paulina Cruz's website that finds poems written by women"
                 width="350"
-                class="project-image p-1 shadow rounded"
+                className="project-image p-1 shadow rounded"
               />
-              <span class="tap-text">Tap to open</span>
+              <span className="tap-text">Tap to open</span>
             </a>
           </div>
 
-          <div class="col-lg text-start">
-            <div class="text-center text-lg-start">
+          <div className="col-lg text-start">
+            <div className="text-center text-lg-start">
               <h3>POEM SEARCHER</h3>
             </div>
-            <p class="justified-text-right paragraph-pages">
+            <p className="justified-text-right paragraph-pages">
               Choose the theme of the poem, in any language you'd like and the
               searcher will show you a beautiful poem written by a woman from
               anywhere in the world, using Artificial Intelligence.
@@ -104,59 +104,59 @@ export default function Work() {
           </div>
         </div>
 
-        <div class="row justify-content-center project-text">
-          <div class="col-lg text-end order-lg-0 order-1">
-            <div class="text-center text-lg-end">
+        <div className="row justify-content-center project-text">
+          <div className="col-lg text-end order-lg-0 order-1">
+            <div className="text-center text-lg-end">
               <h3>POLYAMORY GUIDE</h3>
             </div>
-            <p class="justified-text-left paragraph-pages">
+            <p className="justified-text-left paragraph-pages">
               A gentle guide to polyamory, centered on love, communication,
               consent, and autonomy. Resources, definitions, and insights that
               expand relationships beyond the constraints of monogamy.
             </p>
           </div>
 
-          <div class="col-lg order-lg-1 order-0">
+          <div className="col-lg order-lg-1 order-0">
             <a
               href="https://polyamory-guide-by-paulina.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              class="image-link"
+              className="image-link"
             >
               <img
-                src="images/polyamory-guide.png"
+                src="/images/polyamory-guide.png"
                 alt="Paulina Cruz's website that provides a guide on polyamory"
                 width="350"
-                class="project-image p-1 shadow rounded"
+                className="project-image p-1 shadow rounded"
               />
-              <span class="tap-text">Tap to open</span>
+              <span className="tap-text">Tap to open</span>
             </a>
           </div>
         </div>
 
-        <div class="row justify-content-center project-text">
-          <div class="col-lg text-center text-lg-end">
+        <div className="row justify-content-center project-text">
+          <div className="col-lg text-center text-lg-end">
             <a
-              href="https://weather-pc.netlify.app/"
+              href="https://purple-weatherapp.paucruz.com/"
               target="_blank"
               rel="noopener noreferrer"
-              class="image-link"
+              className="image-link"
             >
               <img
-                src="images/weather-app.png"
+                src="/images/weather-app.png"
                 alt="Paulina Cruz's website that shows the weather in any city"
                 width="350"
-                class="project-image p-1 shadow rounded"
+                className="project-image p-1 shadow rounded"
               />
-              <span class="tap-text">Tap to open</span>
+              <span className="tap-text">Tap to open</span>
             </a>
           </div>
 
-          <div class="col-lg text-start">
-            <div class="text-center text-lg-start">
+          <div className="col-lg text-start">
+            <div className="text-center text-lg-start">
               <h3>WEATHER APP</h3>
             </div>
-            <p class="justified-text-right paragraph-pages">
+            <p className="justified-text-right paragraph-pages">
               Choose any city in the world and the searcher will show you this
               week's weather prediction in that city. It also shows the weather
               in ℃ and ℉, date and time of your current location.
@@ -164,120 +164,112 @@ export default function Work() {
           </div>
         </div>
 
-        <div class="row justify-content-center project-text">
-          <div class="col-lg text-end order-lg-0 order-1">
-            <div class="text-center text-lg-end">
+        <div className="row justify-content-center project-text">
+          <div className="col-lg text-end order-lg-0 order-1">
+            <div className="text-center text-lg-end">
               <h3>WORLD CLOCK</h3>
             </div>
-            <p class="justified-text-left paragraph-pages">
+            <p className="justified-text-left paragraph-pages">
               This page shows you the full date and time, in a digital clock, of
               four default cities all around the world. You can also choose
               other four cities or your current location.
             </p>
           </div>
 
-          <div class="col-lg order-lg-1 order-0">
+          <div className="col-lg order-lg-1 order-0">
             <a
               href="https://world-clock-pc.netlify.app/index.html"
               target="_blank"
               rel="noopener noreferrer"
-              class="image-link"
+              className="image-link"
             >
               <img
-                src="images/world-clock.png"
+                src="/images/world-clock.png"
                 alt="Paulina Cruz's Web page that shows the time of a few cities"
                 width="350"
-                class="project-image p-1 shadow rounded"
+                className="project-image p-1 shadow rounded"
               />
-              <span class="tap-text">Tap to open</span>
+              <span className="tap-text">Tap to open</span>
             </a>
           </div>
         </div>
       </div>
 
-      <div class="container text-center">
-        <div class="bottom-buttons">
-          <a href="about.html" class="section-btn shadow rounded">
+      <div className="container text-center">
+        <div className="bottom-buttons">
+          <a href="about.html" className="section-btn shadow rounded">
             {" "}
             About me{" "}
           </a>
 
-          <a href="contact.html" class="section-btn shadow rounded">
+          <a href="contact.html" className="section-btn shadow rounded">
             Contact me
           </a>
         </div>
       </div>
 
       <footer>
-        <div class="email-link">
-          <a href="mailto:paulinamc_micki@hotmail.com" title="Paulina's email">
-            <strong>paulinamc_micki@hotmail.com</strong>
+        <div className="text-center">
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/paulinamarincruz/"
+            title="LinkedIn Profile"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:paulinamc_micki@hotmail.com"
+            title="Email"
+          >
+            <i className="fa-solid fa-envelope"></i>
+          </a>
+
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/paucruz5/"
+            title="GitHub Profile"
+          >
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
 
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <a
-                class="social-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/paulinamarincruz/"
-                title="LinkedIn Profile"
-              >
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </div>
-
-            <div class="col">
-              <a
-                class="social-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.facebook.com/paucruz5"
-                title="Facebook Profile"
-              >
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-            </div>
-
-            <div class="col">
-              <a
-                class="social-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.instagram.com/paucruz5/"
-                title="Instagram Profile"
-              >
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </div>
-
-            <div class="col">
-              <a
-                class="social-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/paucruz5/"
-                title="GitHub Profile"
-              >
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <p class="text-center mt-5">
-          This project was coded by Paulina Cruz{" "}
-          <br class="d-block d-md-none" />
-          and it is
+        <p className="made-by-text text-center mb-5 ">
+          This project was coded by
+          <a
+            href="https://paucruz.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            {" "}
+            Paulina Cruz
+          </a>{" "}
+          <br className="d-block d-md-none" />
+          and it's open-sourced on{" "}
           <a
             href="https://github.com/paucruz5/portfolio-webpage"
             target="_blank"
             rel="noopener noreferrer"
-            class="github-code"
+            className="footer-link"
           >
-            open-sourced
+            Github{" "}
+          </a>
+          and hosted on{" "}
+          <a
+            href="https://the-meaning-archive.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Netlify
           </a>
         </p>
       </footer>

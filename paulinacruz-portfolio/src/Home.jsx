@@ -163,7 +163,7 @@ export default function Home() {
         <div className="row justify-content-center project-text">
           <div className="col-lg text-center text-lg-end">
             <a
-              href="https://weather-pc.netlify.app/"
+              href="https://purple-weatherapp.paucruz.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="image-link"
@@ -210,75 +210,67 @@ export default function Home() {
       </div>
 
       <footer>
-        <div className="email-link">
-          <a href="mailto:paulinamc_micki@hotmail.com" title="Paulina's email">
-            <strong>paulinamc_micki@hotmail.com</strong>
+        <div className="text-center">
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/paulinamarincruz/"
+            title="LinkedIn Profile"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:paulinamc_micki@hotmail.com"
+            title="Email"
+          >
+            <i className="fa-solid fa-envelope"></i>
+          </a>
+
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/paucruz5/"
+            title="GitHub Profile"
+          >
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
 
-        <div className="container text-center">
-          <div className="row">
-            <div className="col">
-              <a
-                className="social-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/paulinamarincruz/"
-                title="LinkedIn Profile"
-              >
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-            </div>
-
-            <div className="col">
-              <a
-                className="social-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.facebook.com/paucruz5"
-                title="Facebook Profile"
-              >
-                <i className="fa-brands fa-facebook"></i>
-              </a>
-            </div>
-
-            <div className="col">
-              <a
-                className="social-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.instagram.com/paucruz5/"
-                title="Instagram Profile"
-              >
-                <i className="fa-brands fa-instagram"></i>
-              </a>
-            </div>
-
-            <div className="col">
-              <a
-                className="social-btn"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/paucruz5/"
-                title="GitHub Profile"
-              >
-                <i className="fa-brands fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <p className="text-center mt-5">
-          This project was coded by Paulina Cruz{" "}
+        <p className="made-by-text text-center mb-5">
+          This project was coded by
+          <a
+            href="https://paucruz.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            {" "}
+            Paulina Cruz
+          </a>{" "}
           <br className="d-block d-md-none" />
-          and it is
+          and it's open-sourced on{" "}
           <a
             href="https://github.com/paucruz5/portfolio-webpage"
             target="_blank"
             rel="noopener noreferrer"
-            className="github-code"
+            className="footer-link"
           >
-            open-sourced
+            Github{" "}
+          </a>
+          and hosted on{" "}
+          <a
+            href="https://the-meaning-archive.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Netlify
           </a>
         </p>
       </footer>

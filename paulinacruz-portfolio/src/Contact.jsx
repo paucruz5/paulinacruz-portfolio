@@ -111,10 +111,10 @@ export default function Contact() {
       </div>
 
       <footer>
-        <p className="text-center mb-5">
+        <p className="made-by-text text-center mb-5">
           This project was coded by
           <a
-            href="https://paucruz-portfolio.netlify.app/"
+            href="https://paucruz.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"
@@ -130,7 +130,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="footer-link"
           >
-            Github
+            Github{" "}
           </a>
           and hosted on{" "}
           <a
