@@ -77,7 +77,7 @@ export default function Work() {
         <div className="row justify-content-center project-text">
           <div className="col-lg text-center text-lg-end">
             <a
-              href="https://women-poems-searcher.netlify.app/"
+              href="https://women-poems-searcher.paucruz.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="image-link"
@@ -137,7 +137,7 @@ export default function Work() {
         <div className="row justify-content-center project-text">
           <div className="col-lg text-center text-lg-end">
             <a
-              href="https://purple-weatherapp.paucruz.com/"
+              href="https://purple-weather-app.paucruz.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="image-link"
@@ -167,6 +167,36 @@ export default function Work() {
         <div className="row justify-content-center project-text">
           <div className="col-lg text-end order-lg-0 order-1">
             <div className="text-center text-lg-end">
+              <h3>DICTIONARY APP</h3>
+            </div>
+            <p className="justified-text-left paragraph-pages">
+              This page shows you the full date and time, in a digital clock, of
+              four default cities all around the world. You can also choose
+              other four cities or your current location.
+            </p>
+          </div>
+
+          <div className="col-lg order-lg-1 order-0">
+            <a
+              href="https://purple-dictionary.paucruz.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="image-link"
+            >
+              <img
+                src="/images/dictionary-project.png"
+                alt="Paulina Cruz's website with a working dictionary"
+                width="350"
+                className="project-image p-1 shadow rounded"
+              />
+              <span className="tap-text">Tap to open</span>
+            </a>
+          </div>
+        </div>
+
+        <div className="row justify-content-center project-text">
+          <div className="col-lg text-end order-lg-0 order-1">
+            <div className="text-center text-lg-end">
               <h3>WORLD CLOCK</h3>
             </div>
             <p className="justified-text-left paragraph-pages">
@@ -178,7 +208,7 @@ export default function Work() {
 
           <div className="col-lg order-lg-1 order-0">
             <a
-              href="https://world-clock-pc.netlify.app/index.html"
+              href="https://purple-world-clock.paucruz.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="image-link"
