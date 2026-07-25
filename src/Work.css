@@ -1,0 +1,40 @@
+.hero-heading {
+    font-family: var(--handwriting-font-family);
+    color: var(--green);
+    margin-top: 120px;
+    margin-bottom: 90px;
+    font-size: clamp(50px, 6vw, 60px);
+}
+
+/* home and work page */
+.paragraph-description {
+    font-size: 20px;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    text-align: justify;
+}
+
+.paragraph-pages {
+    font-size: 18px;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    text-align: justify;
+}
+
+.project-text {
+    margin-bottom: 100px;
+}
+
+.justified-text-right {
+    width: 22rem;
+    margin-right: auto;
+}
+
+.justified-text-left {
+    width: 22rem;
+    margin-left: auto;
+}
+
+.project-image:hover {
+    border: 5px solid var(--green);
+}

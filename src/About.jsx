@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./About.css";
 
 export default function About() {
   return (
@@ -274,15 +274,7 @@ export default function About() {
           >
             Github{" "}
           </a>
-          and hosted on{" "}
-          <a
-            href="https://the-meaning-archive.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-link"
-          >
-            Netlify
-          </a>
+          and hosted on Netlify
         </p>
       </footer>
     </div>

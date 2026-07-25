@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./Contact.css";
 
 export default function Contact() {
   return (
@@ -132,15 +132,7 @@ export default function Contact() {
           >
             Github{" "}
           </a>
-          and hosted on{" "}
-          <a
-            href="https://the-meaning-archive.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-link"
-          >
-            Netlify
-          </a>
+          and hosted on Netlify
         </p>
       </footer>
     </div>

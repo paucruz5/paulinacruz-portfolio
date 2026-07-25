@@ -1,0 +1,42 @@
+.hero-heading {
+    font-family: var(--handwriting-font-family);
+    color: var(--green);
+    margin-top: 120px;
+    margin-bottom: 90px;
+    font-size: clamp(50px, 6vw, 60px);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.social-contact {
+    display: block;
+    text-align: left;
+    font-size: clamp(20px, 4vw, 35px) !important;
+}
+
+.social-contact i {
+    margin-right: 30px;
+}
+
+.social-contact:link {
+    color: var(--green);
+    text-decoration: none;
+}
+
+.social-contact:visited {
+    color: var(--green);
+}
+
+.social-contact:hover {
+    color: var(--grey);
+}
+
+.social-contact:active {
+    color: var(--grey);
+}

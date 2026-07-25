@@ -81,9 +81,9 @@ export default function Home() {
             </h2>
             <br />
             <p className="justified-text-left text-intro paragraph-description">
-              I aim to create engaging digital experiences that delight users
-              and meet business goals. I thrive on turning complex ideas into
-              visually appealing and intuitive interfaces.
+              I'm a junior front‑end developer with customer support experience,
+              skilled in HTML, CSS, JS, and React. I blend technical skill with
+              a deep understanding of people.
             </p>
           </div>
 
@@ -263,15 +263,7 @@ export default function Home() {
           >
             Github{" "}
           </a>
-          and hosted on{" "}
-          <a
-            href="https://the-meaning-archive.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-link"
-          >
-            Netlify
-          </a>
+          and hosted on Netlify
         </p>
       </footer>
     </div>

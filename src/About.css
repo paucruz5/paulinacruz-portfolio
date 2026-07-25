@@ -1,0 +1,78 @@
+/* home and about page */
+.hero-section {
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.text-intro {
+    margin-bottom: 40px;
+}
+
+.hero-section img {
+    max-width: 220px;
+}
+
+.dog-picture {
+    margin-bottom: 20px;
+}
+
+
+li {
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    text-align: left;
+}
+
+ul {
+    list-style: square;
+}
+
+.about-myself {
+    margin: 0 auto;
+    text-align: center;
+    /* allows centering for titles */
+}
+
+.about-myself ul {
+    display: inline-block;
+    /* allows centering for lists */
+}
+
+.about-lists {
+    margin-bottom: 70px;
+}
+
+.recommendations {
+    margin-bottom: 105px;
+}
+
+.recommendations-title {
+    font-size: clamp(28px, 6vw, 50px);
+}
+
+/* about page outside links */
+.shecodes a,
+.personality a {
+    text-decoration: none;
+    color: var(--green);
+    transition: color 0.2s;
+}
+
+.shecodes a:hover,
+.personality a:hover {
+    color: var(--grey);
+}
+
+#lgbtDef,
+#polyDef,
+#feministDef {
+    text-decoration: none;
+    color: var(--green);
+    transition: color 0.2s;
+}
+
+#lgbtDef:hover,
+#polyDef:hover,
+#feministDef:hover {
+    color: white;
+}
