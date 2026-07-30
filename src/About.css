@@ -6,6 +6,7 @@
 
 .text-intro {
     margin-bottom: 40px;
+    color: white;
 }
 
 .hero-section img {
@@ -36,6 +37,7 @@ ul {
 .about-myself ul {
     display: inline-block;
     /* allows centering for lists */
+    color: white;
 }
 
 .about-lists {

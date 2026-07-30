@@ -6,6 +6,7 @@
 
 .text-intro {
     margin-bottom: 40px;
+    color: white;
 }
 
 .hero-section img {
@@ -33,6 +34,7 @@
 
 .project-text {
     margin-bottom: 100px;
+    color: white;
 }
 
 .justified-text-right {
