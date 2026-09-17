@@ -123,11 +123,11 @@ export default function About() {
           </div>
           <ul>
             <li className="mb-1 list">
-              I'm 31 years old. Born in August, 1994. I'm a Leo♌
+              I'm 32 years old. Born in August, 1994. I'm a Leo♌
             </li>
             <li className="mb-1 list">I'm Mexican-Cuban</li>
             <li className="mb-1 list">
-              I studied front-end developing in
+              I studied front-end developing in&nbsp;
               <span className="shecodes">
                 <a
                   href="https://www.shecodes.io/"
@@ -143,7 +143,7 @@ export default function About() {
               I have 8 years of customer service experience
             </li>
             <li className="mb-1 list">
-              My personality type is
+              My personality type is&nbsp;
               <span className="personality">
                 <a
                   href="https://www.16personalities.com/enfj-personality"
@@ -184,7 +184,7 @@ export default function About() {
               <a href="#" id="lgbtDef">
                 LGBTQIA+
               </a>{" "}
-              &
+              &&nbsp;
               <a href="#" id="polyDef">
                 polyamorous
               </a>{" "}

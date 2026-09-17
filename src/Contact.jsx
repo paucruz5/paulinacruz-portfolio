@@ -83,7 +83,7 @@ export default function Contact() {
             paulinamc_micki@hotmail.com
           </a>
           <a href="mailto:pauwcruz@gmail.com" className="social-contact">
-            <i className="fa-brands fa-google fa-fw"></i> pauwcruz@gmail.com
+            <i className="fa-brands fa-google fa-fw"></i>pauwcruz@gmail.com
           </a>
           <a
             href="https://www.linkedin.com/in/paulinamarincruz/"
@@ -91,7 +91,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="social-contact"
           >
-            <i className="fa-brands fa-linkedin fa-fw"></i> paulinamarincruz
+            <i className="fa-brands fa-linkedin fa-fw"></i>paulinamarincruz
           </a>
         </div>
       </div>
