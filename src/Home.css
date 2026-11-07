@@ -14,7 +14,22 @@
 }
 
 .face-shot {
-    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+/* button that sends you to another section of the page */
+.homepage-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin-top: -80px;
+}
+
+.homepage-buttons .section-btn {
+    height: 40px;
+    padding: 6px 10px;
+    font-size: 12px;
 }
 
 /* home and work page */

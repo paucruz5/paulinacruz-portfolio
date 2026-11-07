@@ -36,7 +36,7 @@ export default function Home() {
                   href="index.html"
                   title="Paulina’s Home page"
                 >
-                  <strong>Home page</strong>
+                  <strong>{"<Home />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -45,7 +45,7 @@ export default function Home() {
                   href="/about.html"
                   title="About Paulina"
                 >
-                  <strong>About me</strong>
+                  <strong>{"<About />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -54,7 +54,7 @@ export default function Home() {
                   href="/work.html"
                   title="Paulina’s Work"
                 >
-                  <strong>My work</strong>
+                  <strong>{"<Projects />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -63,7 +63,7 @@ export default function Home() {
                   href="/contact.html"
                   title="Contact Paulina"
                 >
-                  <strong>Let's talk!</strong>
+                  <strong>{"<Contact />"}</strong>
                 </a>
               </li>
             </ul>
@@ -77,13 +77,13 @@ export default function Home() {
           <div className="col-lg text-center">
             <h1>Paulina Cruz</h1>
             <h2>
-              <small>front-end developer based in Mexico</small>
+              <small>Customer care & front-end developer</small>
             </h2>
             <br />
             <p className="justified-text-left text-intro paragraph-description">
-              I'm a junior front‑end developer with customer support experience,
-              skilled in HTML, CSS, JS, and React. I blend technical skill with
-              a deep understanding of people.
+              Junior front-end developer skilled in HTML, CSS, JavaScript and
+              React. I aim to create user-focused web experiences by combining
+              technical expertise with a strong customer support background.
             </p>
           </div>
 
@@ -96,6 +96,22 @@ export default function Home() {
             />
           </div>
           <div className="col-lg"></div>
+        </div>
+      </div>
+
+      <div className="container text-center">
+        <div className="homepage-buttons">
+          <a href="about.html" className="section-btn shadow rounded">
+            Learn more
+          </a>
+
+          <a href="work.html" className="section-btn shadow rounded">
+            All Projects
+          </a>
+
+          <a href="contact.html" className="section-btn shadow rounded">
+            Let's talk!
+          </a>
         </div>
       </div>
 
@@ -123,9 +139,8 @@ export default function Home() {
               <h3>POEM SEARCHER</h3>
             </div>
             <p className="justified-text-right paragraph-pages">
-              Choose the theme of the poem, in any language you'd like and the
-              searcher will show you a beautiful poem written by a woman from
-              anywhere in the world, using Artificial Intelligence.
+              Generate a poem in any language written by a woman by writing down
+              the theme, using SheCodes Artificial Intelligence API.
             </p>
           </div>
         </div>
@@ -136,9 +151,9 @@ export default function Home() {
               <h3>POLYAMORY GUIDE</h3>
             </div>
             <p className="justified-text-left paragraph-pages">
-              A gentle guide to polyamory, centered on love, communication,
-              consent, and autonomy. Resources, definitions, and insights that
-              expand relationships beyond the constraints of monogamy.
+              A guide to polyamory where I share resources, definitions, and
+              insights that expand relationships beyond the constraints of
+              monogamy. I used Spotify embed & Google Fonts API.
             </p>
           </div>
 
@@ -183,29 +198,11 @@ export default function Home() {
               <h3>WEATHER APP</h3>
             </div>
             <p className="justified-text-right paragraph-pages">
-              Choose any city in the world and the searcher will show you this
-              week's weather prediction in that city. It also shows the weather
-              in ℃ and ℉, date and time of your current location.
+              Type any city worldwide and it shows you this week's weather
+              prediction using the SheCodes Weather API. It also shows the
+              weather in ℃ and ℉, date and time of your current location.
             </p>
           </div>
-        </div>
-      </div>
-
-      <div className="container text-center">
-        <div className="bottom-buttons">
-          <a href="about.html" className="section-btn shadow rounded">
-            {" "}
-            About me{" "}
-          </a>
-
-          <a href="work.html" className="section-btn shadow rounded">
-            {" "}
-            My projects{" "}
-          </a>
-
-          <a href="contact.html" className="section-btn shadow rounded">
-            Contact me
-          </a>
         </div>
       </div>
 
@@ -243,7 +240,7 @@ export default function Home() {
         </div>
 
         <p className="made-by-text text-center mb-5">
-          This project was coded by
+          This project was developed using React by
           <a
             href="https://paucruz.com/"
             target="_blank"
@@ -251,10 +248,10 @@ export default function Home() {
             className="footer-link"
           >
             {" "}
-            Paulina Cruz
+            Paulina Cruz,
           </a>{" "}
           <br className="d-block d-md-none" />
-          and it's open-sourced on{" "}
+          it's open-sourced on{" "}
           <a
             href="https://github.com/paucruz5/portfolio-webpage"
             target="_blank"

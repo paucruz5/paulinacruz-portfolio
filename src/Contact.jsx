@@ -35,7 +35,7 @@ export default function Contact() {
                   href="/index.html"
                   title="Paulina’s Home page"
                 >
-                  <strong>Home page</strong>
+                  <strong>{"<Home />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -44,7 +44,7 @@ export default function Contact() {
                   href="/about.html"
                   title="About Paulina"
                 >
-                  <strong>About me</strong>
+                  <strong>{"<About />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -53,7 +53,7 @@ export default function Contact() {
                   href="/work.html"
                   title="Paulina’s Work"
                 >
-                  <strong>My work</strong>
+                  <strong>{"<Projects />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -63,7 +63,7 @@ export default function Contact() {
                   href="contact.html"
                   title="Contact Paulina"
                 >
-                  <strong>Let's talk!</strong>
+                  <strong>{"<Contact />"}</strong>
                 </a>
               </li>
             </ul>
@@ -111,8 +111,40 @@ export default function Contact() {
       </div>
 
       <footer>
+        <div className="text-center">
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/paulinamarincruz/"
+            title="LinkedIn Profile"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:paulinamc_micki@hotmail.com"
+            title="Email"
+          >
+            <i className="fa-solid fa-envelope"></i>
+          </a>
+
+          <a
+            className="social-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/paucruz5/"
+            title="GitHub Profile"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+        </div>
+
         <p className="made-by-text text-center mb-5">
-          This project was coded by
+          This project was developed using React by
           <a
             href="https://paucruz.com/"
             target="_blank"
@@ -120,10 +152,10 @@ export default function Contact() {
             className="footer-link"
           >
             {" "}
-            Paulina Cruz
+            Paulina Cruz,
           </a>{" "}
           <br className="d-block d-md-none" />
-          and it's open-sourced on{" "}
+          it's open-sourced on{" "}
           <a
             href="https://github.com/paucruz5/portfolio-webpage"
             target="_blank"

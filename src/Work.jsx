@@ -35,7 +35,7 @@ export default function Work() {
                   href="/index.html"
                   title="Paulina’s Home page"
                 >
-                  <strong>Home page</strong>
+                  <strong>{"<Home />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -44,7 +44,7 @@ export default function Work() {
                   href="/about.html"
                   title="About Paulina"
                 >
-                  <strong>About me</strong>
+                  <strong>{"<About />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -54,7 +54,7 @@ export default function Work() {
                   href="work.html"
                   title="Paulina’s Work"
                 >
-                  <strong>My work</strong>
+                  <strong>{"<Projects />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -63,7 +63,7 @@ export default function Work() {
                   href="/contact.html"
                   title="Contact Paulina"
                 >
-                  <strong>Let's talk!</strong>
+                  <strong>{"<Contact />"}</strong>
                 </a>
               </li>
             </ul>
@@ -97,9 +97,9 @@ export default function Work() {
               <h3>POEM SEARCHER</h3>
             </div>
             <p className="justified-text-right paragraph-pages">
-              Choose the theme of the poem, in any language you'd like and the
-              searcher will show you a beautiful poem written by a woman from
-              anywhere in the world, using Artificial Intelligence.
+              Choose the theme of the poem in any language and the searcher will
+              show you a short poem written by a woman from anywhere in the
+              world, using SheCodes Artificial Intelligence API.
             </p>
           </div>
         </div>
@@ -110,9 +110,9 @@ export default function Work() {
               <h3>POLYAMORY GUIDE</h3>
             </div>
             <p className="justified-text-left paragraph-pages">
-              A gentle guide to polyamory, centered on love, communication,
-              consent, and autonomy. Resources, definitions, and insights that
-              expand relationships beyond the constraints of monogamy.
+              A guide to polyamory where I share resources, definitions, and
+              insights that expand relationships beyond the constraints of
+              monogamy. I used Spotify embed & Google Fonts API.
             </p>
           </div>
 
@@ -157,9 +157,9 @@ export default function Work() {
               <h3>WEATHER APP</h3>
             </div>
             <p className="justified-text-right paragraph-pages">
-              Choose any city in the world and the searcher will show you this
-              week's weather prediction in that city. It also shows the weather
-              in ℃ and ℉, date and time of your current location.
+              Type any city worldwide and it shows you this week's weather
+              prediction using the SheCodes Weather API. It also shows the
+              weather in ℃ and ℉, date and time of your current location.
             </p>
           </div>
         </div>
@@ -170,9 +170,9 @@ export default function Work() {
               <h3>DICTIONARY APP</h3>
             </div>
             <p className="justified-text-left paragraph-pages">
-              This page shows you the full date and time, in a digital clock, of
-              four default cities all around the world. You can also choose
-              other four cities or your current location.
+              This dictionary uses SheCodes Dictionary API to show you the
+              definition of any word in English and a few synonyms. I also use
+              Pexels API to show you pictures related to that word.
             </p>
           </div>
 
@@ -195,18 +195,7 @@ export default function Work() {
         </div>
 
         <div className="row justify-content-center project-text">
-          <div className="col-lg text-end order-lg-0 order-1">
-            <div className="text-center text-lg-end">
-              <h3>WORLD CLOCK</h3>
-            </div>
-            <p className="justified-text-left paragraph-pages">
-              This page shows you the full date and time, in a digital clock, of
-              four default cities all around the world. You can also choose
-              other four cities or your current location.
-            </p>
-          </div>
-
-          <div className="col-lg order-lg-1 order-0">
+          <div className="col-lg text-center text-lg-end">
             <a
               href="https://purple-world-clock.paucruz.com/"
               target="_blank"
@@ -221,6 +210,17 @@ export default function Work() {
               />
               <span className="tap-text">Tap to open</span>
             </a>
+          </div>
+
+          <div className="col-lg text-start">
+            <div className="text-center text-lg-start">
+              <h3>WORLD CLOCK</h3>
+            </div>
+            <p className="justified-text-right paragraph-pages">
+              This page displays the current time and date for eight cities
+              around the world using Moment Timezone. It also detects the user's
+              local timezone and provides the current time and date.
+            </p>
           </div>
         </div>
       </div>
@@ -272,7 +272,7 @@ export default function Work() {
         </div>
 
         <p className="made-by-text text-center mb-5 ">
-          This project was coded by
+          This project was developed using React by
           <a
             href="https://paucruz.com/"
             target="_blank"
@@ -280,10 +280,10 @@ export default function Work() {
             className="footer-link"
           >
             {" "}
-            Paulina Cruz
+            Paulina Cruz,
           </a>{" "}
           <br className="d-block d-md-none" />
-          and it's open-sourced on{" "}
+          it's open-sourced on{" "}
           <a
             href="https://github.com/paucruz5/portfolio-webpage"
             target="_blank"

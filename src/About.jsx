@@ -35,7 +35,7 @@ export default function About() {
                   href="/index.html"
                   title="Paulina’s Home page"
                 >
-                  <strong>Home page</strong>
+                  <strong>{"<Home />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -45,7 +45,7 @@ export default function About() {
                   href="about.html"
                   title="About Paulina"
                 >
-                  <strong>About me</strong>
+                  <strong>{"<About />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -54,7 +54,7 @@ export default function About() {
                   href="/work.html"
                   title="Paulina’s Work"
                 >
-                  <strong>My work</strong>
+                  <strong>{"<Projects />"}</strong>
                 </a>
               </li>
               <li className="nav-item">
@@ -63,7 +63,7 @@ export default function About() {
                   href="/contact.html"
                   title="Contact Paulina"
                 >
-                  <strong>Let's talk!</strong>
+                  <strong>{"<Contact />"}</strong>
                 </a>
               </li>
             </ul>
@@ -81,9 +81,10 @@ export default function About() {
             </h2>
             <br />
             <p className="justified-text-left text-intro paragraph-description">
-              My curiosity and love for technology drives me to learn. I did a
-              front-end course and it changed my life. I fell in love with
-              coding and I will keep learning more.
+              Software Engineering student passionate about technology,
+              problem-solving, and continuous growth. I enjoy building projects
+              that challenge me, turn ideas into practical solutions, and create
+              better experiences for users.
             </p>
           </div>
 
@@ -254,7 +255,7 @@ export default function About() {
         </div>
 
         <p className="made-by-text text-center mb-5">
-          This project was coded by
+          This project was developed using React by
           <a
             href="https://paucruz.com/"
             target="_blank"
@@ -262,10 +263,10 @@ export default function About() {
             className="footer-link"
           >
             {" "}
-            Paulina Cruz
+            Paulina Cruz,
           </a>{" "}
           <br className="d-block d-md-none" />
-          and it's open-sourced on{" "}
+          it's open-sourced on{" "}
           <a
             href="https://github.com/paucruz5/portfolio-webpage"
             target="_blank"
