@@ -18,21 +18,17 @@
 }
 
 /* button that sends you to another section of the page */
-.homepage-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: nowrap;
-    margin-top: -80px;
+.bottom-buttons {
+    margin-top: -70px;
+    margin-bottom: 40px;
 }
 
-.homepage-buttons .section-btn {
-    height: 40px;
-    padding: 6px 10px;
-    font-size: 12px;
+/* footer social buttons */
+footer {
+    margin-top: -20px;
 }
 
-/* home and work page */
+/* home and projects page */
 .paragraph-description {
     font-size: 20px;
     font-family: var(--main-font-family);

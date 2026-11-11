@@ -40,3 +40,12 @@
 .social-contact:active {
     color: var(--grey);
 }
+
+/* button that sends you to another section of the page */
+.bottom-buttons {
+    margin-bottom: -30px;
+}
+
+footer {
+    margin-top: 50px;
+}

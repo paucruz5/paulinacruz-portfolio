@@ -51,8 +51,8 @@ export default function About() {
               <li className="nav-item">
                 <a
                   className="nav-link px-5"
-                  href="/work.html"
-                  title="Paulina’s Work"
+                  href="/projects.html"
+                  title="Paulina’s Projects"
                 >
                   <strong>{"<Projects />"}</strong>
                 </a>
@@ -68,6 +68,18 @@ export default function About() {
               </li>
             </ul>
           </div>
+          <a
+            className="navbar-brand"
+            href="/projects.html#polyamory-guide"
+            title="Polyamory Guide project"
+          >
+            <img
+              src="/images/Polynizadora-logo.png"
+              width="50"
+              height="50"
+              alt="Paulina Logo"
+            />
+          </a>
         </div>
       </nav>
 
@@ -81,10 +93,9 @@ export default function About() {
             </h2>
             <br />
             <p className="justified-text-left text-intro paragraph-description">
-              Software Engineering student passionate about technology,
-              problem-solving, and continuous growth. I enjoy building projects
-              that challenge me, turn ideas into practical solutions, and create
-              better experiences for users.
+              I'm passionate about technology, problem-solving, and continuous
+              growth. I enjoy building projects that challenge me, turn ideas
+              into practical solutions, and give a superb customer care.
             </p>
           </div>
 
@@ -101,21 +112,6 @@ export default function About() {
       </div>
 
       <div className="about-myself">
-        <div className="container about-lists">
-          <div className="row text-left">
-            <div className="col">
-              <h3>A little about my work</h3>
-            </div>
-          </div>
-          <ul>
-            <li className="mb-1 list">
-              Provide the design of your web page and I will create it
-            </li>
-            <li className="mb-1 list">I use Visual Studio Code</li>
-            <li className="mb-1 list">I use JavaScript</li>
-          </ul>
-        </div>
-
         <div className="container about-lists">
           <div className="row text-left">
             <div className="col">
@@ -210,13 +206,12 @@ export default function About() {
 
       <div className="container text-center">
         <div className="bottom-buttons">
-          <a href="work.html" className="section-btn shadow rounded">
-            {" "}
-            My projects{" "}
+          <a href="projects.html" className="section-btn shadow rounded">
+            {"<Projects />"}
           </a>
 
           <a href="contact.html" className="section-btn shadow rounded">
-            Contact me
+            {"<Contact />"}
           </a>
         </div>
       </div>
@@ -268,7 +263,7 @@ export default function About() {
           <br className="d-block d-md-none" />
           it's open-sourced on{" "}
           <a
-            href="https://github.com/paucruz5/portfolio-webpage"
+            href="https://github.com/paucruz5/paulinacruz-portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"

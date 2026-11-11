@@ -6,7 +6,7 @@
     font-size: clamp(50px, 6vw, 60px);
 }
 
-/* home and work page */
+/* home and projects page */
 .paragraph-description {
     font-size: 20px;
     font-family: var(--main-font-family);
@@ -24,6 +24,10 @@
 .project-text {
     margin-bottom: 100px;
     color: white;
+}
+
+#polyamory-guide {
+    scroll-margin-top: 15rem;
 }
 
 .justified-text-right {

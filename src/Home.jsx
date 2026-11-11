@@ -51,8 +51,8 @@ export default function Home() {
               <li className="nav-item">
                 <a
                   className="nav-link px-5"
-                  href="/work.html"
-                  title="Paulina’s Work"
+                  href="/projects.html"
+                  title="Paulina’s Projects"
                 >
                   <strong>{"<Projects />"}</strong>
                 </a>
@@ -68,6 +68,18 @@ export default function Home() {
               </li>
             </ul>
           </div>
+          <a
+            className="navbar-brand"
+            href="/projects.html#polyamory-guide"
+            title="Polyamory Guide project"
+          >
+            <img
+              src="/images/Polynizadora-logo.png"
+              width="50"
+              height="50"
+              alt="Paulina Logo"
+            />
+          </a>
         </div>
       </nav>
 
@@ -100,22 +112,22 @@ export default function Home() {
       </div>
 
       <div className="container text-center">
-        <div className="homepage-buttons">
+        <div className="bottom-buttons">
           <a href="about.html" className="section-btn shadow rounded">
-            Learn more
+            {"<About />"}
           </a>
 
-          <a href="work.html" className="section-btn shadow rounded">
-            All Projects
+          <a href="projects.html" className="section-btn shadow rounded">
+            {"<Projects />"}
           </a>
 
           <a href="contact.html" className="section-btn shadow rounded">
-            Let's talk!
+            {"<Contact />"}
           </a>
         </div>
       </div>
 
-      <div className="container work-examples">
+      <div className="container projects-examples">
         <div className="row justify-content-center project-text">
           <div className="col-lg text-center text-lg-end">
             <a
@@ -139,8 +151,9 @@ export default function Home() {
               <h3>POEM SEARCHER</h3>
             </div>
             <p className="justified-text-right paragraph-pages">
-              Generate a poem in any language written by a woman by writing down
-              the theme, using SheCodes Artificial Intelligence API.
+              Choose the theme of the poem in any language and the searcher will
+              show you a short poem written by a woman from anywhere in the
+              world, using SheCodes Artificial Intelligence API.
             </p>
           </div>
         </div>
@@ -178,7 +191,7 @@ export default function Home() {
         <div className="row justify-content-center project-text">
           <div className="col-lg text-center text-lg-end">
             <a
-              href="https://purple-weatherapp.paucruz.com/"
+              href="https://purple-weather-app.paucruz.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="image-link"
@@ -253,7 +266,7 @@ export default function Home() {
           <br className="d-block d-md-none" />
           it's open-sourced on{" "}
           <a
-            href="https://github.com/paucruz5/portfolio-webpage"
+            href="https://github.com/paucruz5/paulinacruz-portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"

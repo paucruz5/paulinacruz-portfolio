@@ -38,13 +38,12 @@ h3 {
 /* navbar */
 .navbar-green {
     background: linear-gradient(-20deg, #3ced42 0%, #74f379 50%, #86e089 100%);
-    font-family: var(--main-font-family);
+    font-family: "JetBrains Mono", monospace;
     font-weight: bolder;
 }
 
 .navbar-nav a {
     color: var(--purple);
-    font-family: "JetBrains Mono", monospace;
 }
 
 .navbar-nav a:hover {
@@ -64,19 +63,18 @@ h3 {
     background: var(--green);
     color: var(--purple);
     font-weight: bolder;
-    font-family: var(--main-font-family);
+    font-family: "JetBrains Mono", monospace;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px;
-    margin-bottom: 50px;
     /* same button size ALWAYS */
     width: auto;
-    padding: 10px 15px;
-    height: 50px;
+    height: 40px;
+    padding: 10px;
     /* auto shrink text */
-    font-size: clamp(12px, 2.5vw, 15px);
+    font-size: clamp(9px, 2.5vw, 12px);
     transition: transform 0.5s ease;
 }
 
@@ -207,7 +205,7 @@ h3 {
         text-align: center;
     }
 
-    .work-examples {
+    .projects-examples {
         flex-direction: column;
         text-align: center;
     }
@@ -216,12 +214,7 @@ h3 {
         margin-bottom: 2rem;
     }
 
-    .work-image {
-        margin-bottom: 2rem;
-        width: inherit;
-    }
-
-    .work-examples .col-lg,
+    .projects-examples .col-lg,
     .hero-section .col-lg {
         display: flex;
         flex-direction: column;

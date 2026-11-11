@@ -50,8 +50,8 @@ export default function Contact() {
               <li className="nav-item">
                 <a
                   className="nav-link px-5"
-                  href="/work.html"
-                  title="Paulina’s Work"
+                  href="/projects.html"
+                  title="Paulina’s Projects"
                 >
                   <strong>{"<Projects />"}</strong>
                 </a>
@@ -68,10 +68,22 @@ export default function Contact() {
               </li>
             </ul>
           </div>
+          <a
+            className="navbar-brand"
+            href="/projects.html#polyamory-guide"
+            title="Polyamory Guide project"
+          >
+            <img
+              src="/images/Polynizadora-logo.png"
+              width="50"
+              height="50"
+              alt="Paulina Logo"
+            />
+          </a>
         </div>
       </nav>
 
-      <h1 className="hero-heading text-center">Let's talk!</h1>
+      <h1 className="hero-heading text-center">Let's work together!</h1>
 
       <div className="container">
         <div className="contact-info">
@@ -96,51 +108,17 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="container text-center py-5">
-        <div className="bottom-buttons">
-          <a href="about.html" className="section-btn shadow rounded">
-            {" "}
-            About me{" "}
-          </a>
-
-          <a href="work.html" className="section-btn shadow rounded">
-            {" "}
-            My projects{" "}
-          </a>
-        </div>
-      </div>
-
       <footer>
-        <div className="text-center">
-          <a
-            className="social-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/paulinamarincruz/"
-            title="LinkedIn Profile"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
+        <div className="container text-center py-5">
+          <div className="bottom-buttons">
+            <a href="about.html" className="section-btn shadow rounded">
+              {"<About />"}
+            </a>
 
-          <a
-            className="social-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:paulinamc_micki@hotmail.com"
-            title="Email"
-          >
-            <i className="fa-solid fa-envelope"></i>
-          </a>
-
-          <a
-            className="social-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/paucruz5/"
-            title="GitHub Profile"
-          >
-            <i className="fa-brands fa-github"></i>
-          </a>
+            <a href="projects.html" className="section-btn shadow rounded">
+              {"<Projects />"}
+            </a>
+          </div>
         </div>
 
         <p className="made-by-text text-center mb-5">
@@ -157,7 +135,7 @@ export default function Contact() {
           <br className="d-block d-md-none" />
           it's open-sourced on{" "}
           <a
-            href="https://github.com/paucruz5/portfolio-webpage"
+            href="https://github.com/paucruz5/paulinacruz-portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"

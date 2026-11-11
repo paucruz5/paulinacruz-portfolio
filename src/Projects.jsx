@@ -1,8 +1,15 @@
-import "./Work.css";
+import { useEffect } from "react";
+import "./Projects.css";
 
-export default function Work() {
+export default function Projects() {
+  useEffect(() => {
+    if (window.location.hash === "#polyamory-guide") {
+      document.getElementById("polyamory-guide")?.scrollIntoView();
+    }
+  }, []);
+
   return (
-    <div className="work-container">
+    <div className="projects-container">
       <nav className="navbar navbar-expand-md navbar-green fixed-top">
         <div className="container">
           <a className="navbar-brand" href="about.html" title="About Paulina">
@@ -51,8 +58,8 @@ export default function Work() {
                 <a
                   className="nav-link active px-5"
                   aria-current="page"
-                  href="work.html"
-                  title="Paulina’s Work"
+                  href="projects.html"
+                  title="Paulina’s Projects"
                 >
                   <strong>{"<Projects />"}</strong>
                 </a>
@@ -68,12 +75,24 @@ export default function Work() {
               </li>
             </ul>
           </div>
+          <a
+            className="navbar-brand"
+            href="/projects.html#polyamory-guide"
+            title="Polyamory Guide project"
+          >
+            <img
+              src="/images/Polynizadora-logo.png"
+              width="50"
+              height="50"
+              alt="Paulina Logo"
+            />
+          </a>
         </div>
       </nav>
 
-      <h1 className="hero-heading text-center">My projects</h1>
+      <h1 className="hero-heading text-center">My Projects</h1>
 
-      <div className="container work-examples">
+      <div className="container projects-examples">
         <div className="row justify-content-center project-text">
           <div className="col-lg text-center text-lg-end">
             <a
@@ -104,7 +123,10 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="row justify-content-center project-text">
+        <div
+          id="polyamory-guide"
+          className="row justify-content-center project-text"
+        >
           <div className="col-lg text-end order-lg-0 order-1">
             <div className="text-center text-lg-end">
               <h3>POLYAMORY GUIDE</h3>
@@ -228,12 +250,11 @@ export default function Work() {
       <div className="container text-center">
         <div className="bottom-buttons">
           <a href="about.html" className="section-btn shadow rounded">
-            {" "}
-            About me{" "}
+            {"<About />"}
           </a>
 
           <a href="contact.html" className="section-btn shadow rounded">
-            Contact me
+            {"<Contact />"}
           </a>
         </div>
       </div>
@@ -285,7 +306,7 @@ export default function Work() {
           <br className="d-block d-md-none" />
           it's open-sourced on{" "}
           <a
-            href="https://github.com/paucruz5/portfolio-webpage"
+            href="https://github.com/paucruz5/paulinacruz-portfolio"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"
