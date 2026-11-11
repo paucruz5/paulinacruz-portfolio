@@ -9,11 +9,16 @@
 }
 
 body {
-    background-image: url('/images/coding-background.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    isolation: isolate;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: url('/images/coding-background.png') center / cover no-repeat;
+    pointer-events: none;
 }
 
 h1 {
@@ -89,8 +94,8 @@ h3 {
 /* footer social buttons */
 .social-btn {
     padding: 0px 80px;
-    font-size: 40px;
     color: var(--green);
+    font-size: 40px;
 }
 
 .social-btn:link {
@@ -110,7 +115,7 @@ h3 {
     color: var(--grey);
 }
 
-/* footer open sourced */
+/* footer made by text */
 .made-by-text {
     margin-top: 30px;
     color: white;
@@ -180,14 +185,23 @@ h3 {
         font-size: 15px !important;
     }
 
-    .section-btn {
-        margin: 10px;
+    .social-btn {
+        padding: 0px 40px;
     }
 
     /* Fixes text position on images in small screens */
     .tap-text {
         bottom: 40px;
         right: 8px;
+    }
+}
+
+/* works on medium and small screens (including ipad pro)*/
+@media (max-width: 1032px) {
+
+    /* background image */
+    body::before {
+        background: url('/images/sm-coding-background.png') center / cover no-repeat;
     }
 }
 
@@ -226,6 +240,10 @@ h3 {
     .paragraph-pages {
         margin-left: auto !important;
         margin-right: auto !important;
+    }
+
+    .made-by-text {
+        font-size: 12px !important;
     }
 }
 

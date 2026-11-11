@@ -49,3 +49,12 @@
 footer {
     margin-top: 50px;
 }
+
+@media (max-width: 1032px) {
+    .made-by-text {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
