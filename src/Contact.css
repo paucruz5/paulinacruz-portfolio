@@ -15,7 +15,6 @@
 }
 
 .social-contact {
-    display: block;
     text-align: left;
     font-size: clamp(20px, 4vw, 35px) !important;
 }

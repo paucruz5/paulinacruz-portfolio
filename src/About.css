@@ -1,18 +1,4 @@
 /* home and about page */
-.hero-section {
-    margin-top: 120px;
-    margin-bottom: 70px;
-}
-
-.text-intro {
-    margin-bottom: 40px;
-    color: white;
-}
-
-.hero-section img {
-    max-width: 220px;
-}
-
 .dog-picture {
     margin-top: 30px;
 }
@@ -29,7 +15,6 @@ ul {
 }
 
 .about-myself {
-    margin: 0 auto;
     text-align: center;
     /* allows centering for titles */
 }
@@ -40,16 +25,13 @@ ul {
     color: white;
 }
 
+.about-myself .software-tools {
+    display: block;
+    text-align: left;
+}
+
 .about-lists {
     margin-bottom: 70px;
-}
-
-.recommendations {
-    margin-bottom: 105px;
-}
-
-.recommendations-title {
-    font-size: clamp(28px, 6vw, 50px);
 }
 
 /* about page outside links */

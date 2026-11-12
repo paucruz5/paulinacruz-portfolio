@@ -2,7 +2,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="app-container">
+    <div>
       <nav className="navbar navbar-expand-md navbar-green fixed-top">
         <div className="container">
           <a className="navbar-brand" href="about.html" title="About Paulina">
@@ -84,9 +84,9 @@ export default function Home() {
       </nav>
 
       <div className="container hero-section">
-        <div className="row justify-content-center">
+        <div className="row">
           <div className="col-lg"></div>
-          <div className="col-lg text-center">
+          <div className="col-lg">
             <h1>Paulina Cruz</h1>
             <h2>
               <small>Customer care & front-end developer</small>
@@ -99,7 +99,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="col-lg text-center">
+          <div className="col-lg">
             <img
               className="img-fluid ms-2 face-shot p-1 shadow rounded"
               src="/images/Paulina.png"
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container text-center">
+      <div className="container">
         <div className="bottom-buttons">
           <a href="about.html" className="section-btn shadow rounded">
             {"<About />"}
@@ -128,8 +128,8 @@ export default function Home() {
       </div>
 
       <div className="container projects-examples">
-        <div className="row justify-content-center project-text">
-          <div className="col-lg text-center text-lg-end">
+        <div className="row project-text">
+          <div className="col-lg text-lg-end">
             <a
               href="https://women-poems-searcher.netlify.app/"
               target="_blank"
@@ -147,7 +147,7 @@ export default function Home() {
           </div>
 
           <div className="col-lg text-start">
-            <div className="text-center text-lg-start">
+            <div className="text-lg-start">
               <h3>POEM SEARCHER</h3>
             </div>
             <p className="justified-text-right paragraph-pages">
@@ -158,9 +158,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="row justify-content-center project-text">
+        <div className="row project-text">
           <div className="col-lg text-end order-lg-0 order-1">
-            <div className="text-center text-lg-end">
+            <div className="text-lg-end">
               <h3>POLYAMORY GUIDE</h3>
             </div>
             <p className="justified-text-left paragraph-pages">
@@ -170,7 +170,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="col-lg order-lg-1 order-0 text-lg-start text-center">
+          <div className="col-lg order-lg-1 order-0 text-lg-start">
             <a
               href="https://polyamory-guide-by-paulina.netlify.app/"
               target="_blank"
@@ -188,8 +188,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="row justify-content-center project-text">
-          <div className="col-lg text-center text-lg-end">
+        <div className="row project-text">
+          <div className="col-lg text-lg-end">
             <a
               href="https://purple-weather-app.paucruz.com/"
               target="_blank"
@@ -207,7 +207,7 @@ export default function Home() {
           </div>
 
           <div className="col-lg text-start">
-            <div className="text-center text-lg-start">
+            <div className="text-lg-start">
               <h3>WEATHER APP</h3>
             </div>
             <p className="justified-text-right paragraph-pages">
@@ -258,7 +258,6 @@ export default function Home() {
             href="https://paucruz.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="footer-link"
           >
             {" "}
             Paulina Cruz,
@@ -269,7 +268,6 @@ export default function Home() {
             href="https://github.com/paucruz5/paulinacruz-portfolio"
             target="_blank"
             rel="noopener noreferrer"
-            className="footer-link"
           >
             Github{" "}
           </a>

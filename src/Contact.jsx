@@ -2,7 +2,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className="contact-container">
+    <div>
       <nav className="navbar navbar-expand-md navbar-green fixed-top">
         <div className="container">
           <a className="navbar-brand" href="about.html" title="About Paulina">
@@ -127,7 +127,6 @@ export default function Contact() {
             href="https://paucruz.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="footer-link"
           >
             {" "}
             Paulina Cruz,
@@ -138,7 +137,6 @@ export default function Contact() {
             href="https://github.com/paucruz5/paulinacruz-portfolio"
             target="_blank"
             rel="noopener noreferrer"
-            className="footer-link"
           >
             Github{" "}
           </a>

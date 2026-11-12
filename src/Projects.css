@@ -7,39 +7,6 @@
 }
 
 /* home and projects page */
-.paragraph-description {
-    font-size: 20px;
-    font-family: var(--main-font-family);
-    font-weight: 500;
-    text-align: justify;
-}
-
-.paragraph-pages {
-    font-size: 18px;
-    font-family: var(--main-font-family);
-    font-weight: 500;
-    text-align: justify;
-}
-
-.project-text {
-    margin-bottom: 100px;
-    color: white;
-}
-
 #polyamory-guide {
     scroll-margin-top: 15rem;
-}
-
-.justified-text-right {
-    width: 22rem;
-    margin-right: auto;
-}
-
-.justified-text-left {
-    width: 22rem;
-    margin-left: auto;
-}
-
-.project-image:hover {
-    border: 5px solid var(--green);
 }

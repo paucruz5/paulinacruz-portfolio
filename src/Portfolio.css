@@ -75,7 +75,6 @@ h3 {
     align-items: center;
     margin: 30px;
     /* same button size ALWAYS */
-    width: auto;
     height: 40px;
     padding: 10px;
     /* auto shrink text */
@@ -87,23 +86,11 @@ h3 {
     transform: scale(1.15);
 }
 
-.section-btn:visited {
-    color: var(--purple);
-}
-
 /* footer social buttons */
 .social-btn {
     padding: 0px 80px;
     color: var(--green);
     font-size: 40px;
-}
-
-.social-btn:link {
-    color: var(--green);
-}
-
-.social-btn:visited {
-    color: var(--green);
 }
 
 .social-btn:hover {
@@ -139,7 +126,6 @@ h3 {
 /* styling of the text */
 .tap-text {
     position: absolute;
-    bottom: 40px;
     right: 115px;
     color: var(--green);
     font-size: 8px;
@@ -214,13 +200,10 @@ h3 {
     }
 
     .hero-section {
-        flex-direction: column;
-        align-items: center;
         text-align: center;
     }
 
     .projects-examples {
-        flex-direction: column;
         text-align: center;
     }
 
@@ -249,6 +232,17 @@ h3 {
 
 /* works only on medium screens */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    /* so the navbar text don't break on medium screens*/
+    .navbar-collapse {
+        padding-left: 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        white-space: nowrap;
+    }
 
     .justified-text-right,
     .justified-text-left {
